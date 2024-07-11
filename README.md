@@ -50,7 +50,7 @@ Kyoto -> Jeddah
         - `flights` of type integer 2D array with a size of five, to store the flight departure and destination.
     - Methods:
         - Create a method `addCity` that takes a `City` object as a parameter and adds it to the `cities` list.
-        - Create a method `addFlight` that takes two `City` objects as parameters and adds the flight departure and destination to the `flights` list.
+        - Create a method `addFlight` that takes the index of the departure city, and the index of the destination city as parameters, and then assign the value `1` to the `flights` 2D array to make the column equal the departure and row equal the destination.
         - Create a method `displayFlightSchedule` that displays the flight schedule departure and destination.
 
 ### Note
