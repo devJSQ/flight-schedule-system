@@ -42,14 +42,16 @@ Kyoto -> Jeddah
 ```
 
 ### Implementation
-- Create a class `City` with the following attributes:
+- Create a class `City` with constructor and attribute:
     - `name` of type `String`
-- Create a class `FlightSchedule` with the following attributes:
-    - `cities` of type `ArrayList<City>` with initializer.
-    - `flights` of type integer 2D array with a size of five, to store the flight departure and destination.
-    - Create a method `addCity` in the `FlightScheduleSystem` class that takes a `**City` object as a parameter** and adds it to the `cities` list.
-    - Create a method `addFlight` in the `FlightScheduleSystem` class that **takes two `City` objects as parameters** and adds the flight departure and destination to the `flights` list.
-    - Create a method `displayFlightSchedule` in the `FlightScheduleSystem` class that displays the flight schedule departure and destination.
+- Create a class `FlightSchedule` with the following:
+    - Attributes:     
+        - `cities` of type `ArrayList<City>` with initializer.
+        - `flights` of type integer 2D array with a size of five, to store the flight departure and destination.
+    - Methods:
+        - Create a method `addCity` that takes a `City` object as a parameter and adds it to the `cities` list.
+        - Create a method `addFlight` that takes two `City` objects as parameters and adds the flight departure and destination to the `flights` list.
+        - Create a method `displayFlightSchedule` that displays the flight schedule departure and destination.
 
 ### Note
 > The `FlightSchedule` class is actually a `graph` data structure, and the `City` is the vertex of the graph.
