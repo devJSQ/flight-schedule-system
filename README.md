@@ -42,6 +42,18 @@ Kyoto -> Jeddah
 ```
 
 ### Implementation
+
+## Implementation
+
+1. Create the `City` class.
+   * Create an attribute `name` of type `String`
+   * Implement a constructor to initialize `name`.
+
+2. Create the `FlightSchedule` class.
+   * Create an attribute `cities` of type `ArrayList<City>`, then initialize it with `new ArrayList<>();`
+   * Create an attribute `flights` of type two dimension integer, then initialize it with a length of 5.
+   * Create a method `addCity` that adds a city to the `cities` list. 
+
 - Create a class `City` with constructor and attribute:
     - `name` of type `String`
 - Create a class `FlightSchedule` with the following:
