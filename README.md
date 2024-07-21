@@ -41,33 +41,28 @@ Boston -> Kyoto
 Kyoto -> Jeddah
 ```
 
-### Implementation
 
-## Implementation
+### Implementation
 
 1. Create the `City` class.
    * Create an attribute `name` of type `String`
    * Implement a constructor to initialize `name`.
 
 2. Create the `FlightSchedule` class.
-   * Create an attribute `cities` of type `ArrayList<City>`, then initialize it with `new ArrayList<>();`
-   * Create an attribute `flights` of type two dimension integer, then initialize it with a length of 5.
-   * Create a method `addCity` that adds a city to the `cities` list. 
+   - **Attributes:**
+       * Create an attribute `cities` of type `ArrayList<City>`, then initialize it with `new ArrayList<>();`
+       * Create an attribute `flights` of type two dimension integer, then initialize it with a length of 5.
+   - **Methods:**
+       * Create a method `addCity` that adds a city to the `cities` list.
+       * Create a method `addFlight` which takes two parameters (**from**, and **to**) of type integer, then assign the `flights` 2D Array [from][to] value to **1**
+       * Create a method `displayFlightSchedule` which prints out the `flights`
+    
 
-- Create a class `City` with constructor and attribute:
-    - `name` of type `String`
-- Create a class `FlightSchedule` with the following:
-    - Attributes:     
-        - `cities` of type `ArrayList<City>` with initializer.
-        - `flights` of type integer 2D array with a size of five, to store the flight departure and destination.
-    - Methods:
-        - Create a method `addCity` that takes a `City` object as a parameter and adds it to the `cities` list.
-        - Create a method `addFlight` that takes the index of the departure city, and the index of the destination city as parameters, and then assign the value `1` to the `flights` 2D array to make the column equal the departure and row equal the destination.
-        - Create a method `displayFlightSchedule` that displays the flight schedule departure and destination.
 
 ### Note
-> The `FlightSchedule` class is actually a `graph` data structure, and the `City` is the vertex of the graph.
-> You're required to `import java.util.ArrayList` to store the cities.
+> * All the methods in the `FlightSchedule` class are void.
+> * The `FlightSchedule` class is actually a `graph` data structure, and the `City` is the vertex of the graph.
+> * You're required to `import java.util.ArrayList` to store the cities.
 
 
 
