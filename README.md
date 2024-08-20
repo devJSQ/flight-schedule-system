@@ -68,6 +68,8 @@ Kyoto -> Jeddah
 
 ### Qualification to pass
 - [ ] The code should run successfully.
+- [ ] Completely define the `City` class.
+- [ ] Completely define the `FlightSchedule` class.
 - [ ] Write all required functions correctly `addCity()` `addFlight()`, and `displayFlightSchedule()`.
 - [ ] The output should match the **test case**.
 - [ ] Use the **Graph data structure** to solve the problem.
